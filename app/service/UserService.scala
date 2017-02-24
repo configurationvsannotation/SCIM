@@ -22,6 +22,7 @@ trait UserService {
   def groupById(groupId:String):Option[Group]
   def membersByGroupId(groupId:String):List[Member]
   def searchGroups(count:Option[String], startIndex:Option[String]):Groups
+  def patchGroup(groupId:String,groupUpdate: GroupUpdate):Option[Group]
 
 }
 
@@ -70,7 +71,6 @@ class MySqlUserService @Inject() (db:Database) extends UserService{
     }
 
   }
-  //family name is last name
 
   override def deleteUser(userId: String): Boolean = {
     executeUdate("delete from user_groups where user_id in (select user_id from users where id_str = ?)",userId)
@@ -85,7 +85,7 @@ class MySqlUserService @Inject() (db:Database) extends UserService{
 
   override def searchUsers(filter: Option[String], count: Option[String], startIndex: Option[String]): Users = {
     val searchUsersQuery =
-      "select id_str, firstName, lastName, active, userName from users where userName like ? order by firstName limit ? offset ?"
+      "select id_str, firstName, lastName, active, userName from users where userName like ? order by userName limit ? offset ?"
     val query = prepareStatement(searchUsersQuery,s"%${filter.getOrElse("")}%",
       count.getOrElse("5").toInt,startIndex.getOrElse("0").toInt).executeQuery();
     val users = ArrayBuffer[User]()
@@ -127,8 +127,9 @@ class MySqlUserService @Inject() (db:Database) extends UserService{
       arg match {
         case a:String => preparedStatement.setString(psIndex, a)
         case b:Boolean => preparedStatement.setBoolean(psIndex,b)
-        case c=> {
-          throw new RuntimeException(s"invalid paramater of class ${c.getClass} setting argument $psIndex for $sql ")
+        case c:Int => preparedStatement.setInt(psIndex,c)
+        case d => {
+          throw new RuntimeException(s"invalid paramater of class ${d.getClass} setting argument $psIndex for $sql ")
         }
       }
     }
@@ -136,5 +137,37 @@ class MySqlUserService @Inject() (db:Database) extends UserService{
     preparedStatement
   }
 
+  private def groupPrimaryKey(groupId:String)={
+    val query = prepareStatement("select id from groups where id_str = ?",groupId).executeQuery()
+    if(query.next()){
+      Some(query.getInt("id"))
+    }else{
+      None
+    }
+  }
 
+  override def patchGroup(groupId:String,groupUpdate: GroupUpdate): Option[Group] = {
+    val groupPk = groupPrimaryKey(groupId)
+    val operations = groupUpdate.Operations
+
+    operations.foreach{ (op: Operations) =>
+      op.value.foreach{ m =>
+        op.op match {
+          case "add" => addMember(groupPk,m.value)
+          case "remove" => removeMember(groupPk, m.value)
+        }
+      }
+
+
+    }
+    groupById(groupId)
+  }
+  private def addMember(groupPk:Option[Int], userId:String): Unit ={
+    if(groupPk.isDefined)
+    executeUdate("insert ignore into user_groups(user_id, group_id) (select u.id, ? from users u where id_str = ?)",groupPk.get,userId)
+  }
+  private def removeMember(groupPk:Option[Int], userId:String): Unit ={
+    if(groupPk.isDefined)
+      executeUdate("delete from user_groups where group_id = ? and user_id in  (select id from users where id_str = ?)",groupPk.get,userId)
+  }
 }

@@ -94,14 +94,16 @@ class SCIMController @Inject() (userService: UserService) extends Controller {
     }
   }
 
-  def patchGroup(groupId:String)= Action { request =>
+  def patchGroup(groupId:String)= Action { implicit request =>
     // TODO: Patch a Group Object, modifying its members
     request.body.asJson match{
       case Some(json) => {
-        Json.fromJson[GroupUpdate](json)
-        Ok
+        Json.fromJson[GroupUpdate](json).asOpt match {
+          case Some(groupUpdate) => Ok(Json.toJson(userService.patchGroup(groupId,groupUpdate)))
+          case None => error(s"Bad patch request for group: $groupId","400")
+        }
       }
-      case None => BadRequest
+      case None => error(s"Bad patch request for group: $groupId","400")
     }
   }
   private def error(message:String, status:String)(implicit request:Request[AnyContent]) ={

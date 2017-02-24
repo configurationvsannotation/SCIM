@@ -2,8 +2,10 @@ package models
 
 import play.api.libs.json.Json
 
-case class GroupUpdate(groupId:String,adds:List[String],removes:List[String])
+case class GroupUpdate(Operations:List[Operations])
 
 object GroupUpdate{
   implicit val formatter = Json.format[GroupUpdate]
 }
+
+

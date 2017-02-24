@@ -10,13 +10,15 @@ create table users (
   lastName VARCHAR(100) NOT NULL,
   active BIT NOT NULL DEFAULT 1,
   primary key(id),
-  constraint userName_unique UNIQUE (userName)
+  constraint userName_unique UNIQUE (userName),
+  constraint id_unique UNIQUE (id_str)
 );
 
 create table groups (
   id INT NOT NULL AUTO_INCREMENT,
   id_str VARCHAR(100) NOT NULL,
   displayName VARCHAR(100) NOT NULL,
+  constraint id_unique UNIQUE (id_str),
   primary key(id)
 );
 
@@ -24,7 +26,8 @@ create table user_groups (
   user_id INT NOT NULL,
   group_id INT NOT NULL,
   constraint fk_user foreign key (user_id) references users(id),
-  constraint fk_group foreign key (group_id) references groups(id)
+  constraint fk_group foreign key (group_id) references groups(id),
+  constraint userGroup_unique Unique(user_id,group_id)
 );
 
 insert into users(id_str,userName,firstName,lastName,active)values('efd2b16d-68e1-4dff-9c28-8e006a2c579a','tsage','Tommy','Sage',1);
