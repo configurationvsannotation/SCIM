@@ -1,101 +1,4 @@
-New log file opened at Mon Feb 20 14:24:01 CST 2017 by 1828@Manbook-2.local
-== resolving dependencies com.typesafe.play#play-netty-utils;2.5.10->org.slf4j#jcl-over-slf4j;1.7.21 [compile->compile(*)]
-== resolving dependencies org.slf4j#jcl-over-slf4j;1.7.21->org.slf4j#slf4j-api;1.7.21 [compile->master(compile)]
-== resolving dependencies org.slf4j#jcl-over-slf4j;1.7.21->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->com.typesafe.play#play-streams_2.11;2.5.10 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->com.typesafe.play#play-streams_2.11;2.5.10 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.10->com.typesafe.play#play-iteratees_2.11;2.5.10 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.10->com.typesafe.play#play-iteratees_2.11;2.5.10 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.10->org.reactivestreams#reactive-streams;1.0.0 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.10->org.reactivestreams#reactive-streams;1.0.0 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.10->com.typesafe.akka#akka-stream_2.11;2.4.12 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.10->com.typesafe.akka#akka-stream_2.11;2.4.12 [compile->compile(*)]
-== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.12->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
-== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.12->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.12->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
-== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.12->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.12->com.typesafe.akka#akka-actor_2.11;2.4.12 [compile->master(compile)]
-== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.12->com.typesafe.akka#akka-actor_2.11;2.4.12 [compile->compile(*)]
-== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.12->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
-== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.12->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.12->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
-== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.12->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.12->com.typesafe#config;1.3.0 [compile->master(compile)]
-== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.12->com.typesafe#config;1.3.0 [compile->compile(*)]
-== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.12->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master(compile)]
-== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.12->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile(*)]
-== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.12->org.reactivestreams#reactive-streams;1.0.0 [compile->master(compile)]
-== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.12->org.reactivestreams#reactive-streams;1.0.0 [compile->compile(*)]
-== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.12->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->master(compile)]
-== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.12->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->compile(*)]
-== resolving dependencies com.typesafe#ssl-config-core_2.11;0.2.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
-== resolving dependencies com.typesafe#ssl-config-core_2.11;0.2.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-== resolving dependencies com.typesafe#ssl-config-core_2.11;0.2.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
-== resolving dependencies com.typesafe#ssl-config-core_2.11;0.2.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-== resolving dependencies com.typesafe#ssl-config-core_2.11;0.2.1->com.typesafe#config;1.2.0 [compile->master(compile)]
-== resolving dependencies com.typesafe#ssl-config-core_2.11;0.2.1->com.typesafe#config;1.3.0 [compile->master(compile)]
-== resolving dependencies com.typesafe#ssl-config-core_2.11;0.2.1->com.typesafe#config;1.2.0 [compile->compile(*)]
-== resolving dependencies com.typesafe#ssl-config-core_2.11;0.2.1->com.typesafe#config;1.3.0 [compile->compile(*)]
-== resolving dependencies com.typesafe#ssl-config-core_2.11;0.2.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)]
-== resolving dependencies com.typesafe#ssl-config-core_2.11;0.2.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)]
-== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
-== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
-== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.10->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.10->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->org.slf4j#slf4j-api;1.7.21 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->org.slf4j#jul-to-slf4j;1.7.21 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->org.slf4j#jul-to-slf4j;1.7.21 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->org.slf4j#jcl-over-slf4j;1.7.21 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->org.slf4j#jcl-over-slf4j;1.7.21 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->com.typesafe.akka#akka-actor_2.11;2.4.12 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->com.typesafe.akka#akka-actor_2.11;2.4.12 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->com.typesafe.akka#akka-slf4j_2.11;2.4.12 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->com.typesafe.akka#akka-slf4j_2.11;2.4.12 [compile->compile(*)]
-== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.12->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
-== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.12->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.12->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
-== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.12->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.12->com.typesafe.akka#akka-actor_2.11;2.4.12 [compile->master(compile)]
-== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.12->com.typesafe.akka#akka-actor_2.11;2.4.12 [compile->compile(*)]
-== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.12->org.slf4j#slf4j-api;1.7.16 [compile->master(compile)]
-== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.12->org.slf4j#slf4j-api;1.7.21 [compile->master(compile)]
-== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.12->org.slf4j#slf4j-api;1.7.16 [compile->compile(*)]
-== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.12->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->com.fasterxml.jackson.core#jackson-core;2.7.8 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->com.fasterxml.jackson.core#jackson-core;2.7.8 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->com.fasterxml.jackson.core#jackson-annotations;2.7.8 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->com.fasterxml.jackson.core#jackson-annotations;2.7.8 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->com.fasterxml.jackson.core#jackson-databind;2.7.8 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->com.fasterxml.jackson.core#jackson-databind;2.7.8 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.7.8 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.7.8 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.7.8 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.7.8 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->org.scala-stm#scala-stm_2.11;0.7 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->org.scala-stm#scala-stm_2.11;0.7 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->commons-codec#commons-codec;1.10 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->commons-codec#commons-codec;1.10 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->joda-time#joda-time;2.9.6 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->joda-time#joda-time;2.9.6 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->org.joda#joda-convert;1.8.1 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->org.joda#joda-convert;1.8.1 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->org.apache.commons#commons-lang3;3.4 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->org.apache.commons#commons-lang3;3.4 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->xerces#xercesImpl;2.11.0 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->xerces#xercesImpl;2.11.0 [compile->compile(*)]
-== resolving dependencies xerces#xercesImpl;2.11.0->xml-apis#xml-apis;1.4.01 [compile->master(compile)]
-== resolving dependencies xerces#xercesImpl;2.11.0->xml-apis#xml-apis;1.4.01 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->javax.transaction#jta;1.1 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->javax.transaction#jta;1.1 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#play_2.11;2.5.10->com.google.inject#guice;4.0 [compile->master(compile)]
+New log file opened at Thu Feb 23 19:45:50 CST 2017 by 7704@LTCHI4275.local
 == resolving dependencies com.typesafe.play#play_2.11;2.5.10->com.google.inject#guice;4.0 [compile->compile(*)]
 == resolving dependencies com.google.inject#guice;4.0->javax.inject#javax.inject;1 [compile->master(compile)]
 == resolving dependencies com.google.inject#guice;4.0->javax.inject#javax.inject;1 [compile->compile(*)]
@@ -425,12 +328,12 @@ New log file opened at Mon Feb 20 14:24:01 CST 2017 by 1828@Manbook-2.local
 == resolving dependencies com.typesafe.play#play-jdbc-api_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [compile->compile(*)]
 == resolving dependencies com.typesafe.play#play-jdbc_2.11;2.5.10->com.jolbox#bonecp;0.8.0.RELEASE [compile->master(compile)]
 == resolving dependencies com.typesafe.play#play-jdbc_2.11;2.5.10->com.jolbox#bonecp;0.8.0.RELEASE [compile->compile(*)]
-== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->com.google.guava#guava;15.0 [compile->master(compile)]
-== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->com.google.guava#guava;16.0.1 [compile->master(compile)]
+== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->com.google.guava#guava;15.0 [compile->master(*)]
+== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->com.google.guava#guava;16.0.1 [compile->master(*)]
 == resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->com.google.guava#guava;15.0 [compile->compile(*)]
 == resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->com.google.guava#guava;16.0.1 [compile->compile(*)]
-== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.2 [compile->master(compile)]
-== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.21 [compile->master(compile)]
+== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.2 [compile->master(*)]
+== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.21 [compile->master(*)]
 == resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.2 [compile->compile(*)]
 == resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)]
 == resolving dependencies com.typesafe.play#play-jdbc_2.11;2.5.10->com.zaxxer#HikariCP;2.5.1 [compile->master(compile)]
@@ -818,6 +721,10 @@ excluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compi
 == resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.10 [runtime->runtime(*)]
 == resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.10 [runtime->compile]
 == resolving dependencies scim#scim_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ws_2.11;2.5.10 [compile->master]
+== resolving dependencies scim#scim_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.5.10 [compile->default(compile)]
+== resolving dependencies scim#scim_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.5.10 [compile->runtime]
+== resolving dependencies scim#scim_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.5.10 [compile->compile]
+== resolving dependencies scim#scim_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.5.10 [compile->master]
 == resolving dependencies for scim#scim_2.11;1.0-SNAPSHOT [optional]
 == resolving dependencies for scim#scim_2.11;1.0-SNAPSHOT [provided]
 resolving dependencies for configuration 'runtime-internal'
@@ -1359,12 +1266,12 @@ resolving dependencies for configuration 'runtime-internal'
 == resolving dependencies com.typesafe.play#play-jdbc-api_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [compile->compile(*)]
 == resolving dependencies com.typesafe.play#play-jdbc_2.11;2.5.10->com.jolbox#bonecp;0.8.0.RELEASE [compile->master(compile)]
 == resolving dependencies com.typesafe.play#play-jdbc_2.11;2.5.10->com.jolbox#bonecp;0.8.0.RELEASE [compile->compile(*)]
-== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->com.google.guava#guava;15.0 [compile->master(compile)]
-== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->com.google.guava#guava;16.0.1 [compile->master(compile)]
+== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->com.google.guava#guava;15.0 [compile->master(*)]
+== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->com.google.guava#guava;16.0.1 [compile->master(*)]
 == resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->com.google.guava#guava;15.0 [compile->compile(*)]
 == resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->com.google.guava#guava;16.0.1 [compile->compile(*)]
-== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.2 [compile->master(compile)]
-== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.21 [compile->master(compile)]
+== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.2 [compile->master(*)]
+== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.21 [compile->master(*)]
 == resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.2 [compile->compile(*)]
 == resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)]
 == resolving dependencies com.typesafe.play#play-jdbc_2.11;2.5.10->com.zaxxer#HikariCP;2.5.1 [compile->master(compile)]
@@ -1752,6 +1659,10 @@ excluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compi
 == resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.10 [runtime->runtime(*)]
 == resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.10 [runtime->compile]
 == resolving dependencies scim#scim_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ws_2.11;2.5.10 [compile->master]
+== resolving dependencies scim#scim_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.5.10 [compile->default(compile)]
+== resolving dependencies scim#scim_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.5.10 [compile->runtime]
+== resolving dependencies scim#scim_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.5.10 [compile->compile]
+== resolving dependencies scim#scim_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.5.10 [compile->master]
 == resolving dependencies for scim#scim_2.11;1.0-SNAPSHOT [optional]
 resolving dependencies for configuration 'test-internal'
 == resolving dependencies for scim#scim_2.11;1.0-SNAPSHOT [test-internal]
@@ -2293,12 +2204,12 @@ resolving dependencies for configuration 'test-internal'
 == resolving dependencies com.typesafe.play#play-jdbc-api_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [compile->compile(*)]
 == resolving dependencies com.typesafe.play#play-jdbc_2.11;2.5.10->com.jolbox#bonecp;0.8.0.RELEASE [compile->master(compile)]
 == resolving dependencies com.typesafe.play#play-jdbc_2.11;2.5.10->com.jolbox#bonecp;0.8.0.RELEASE [compile->compile(*)]
-== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->com.google.guava#guava;15.0 [compile->master(compile)]
-== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->com.google.guava#guava;16.0.1 [compile->master(compile)]
+== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->com.google.guava#guava;15.0 [compile->master(*)]
+== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->com.google.guava#guava;16.0.1 [compile->master(*)]
 == resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->com.google.guava#guava;15.0 [compile->compile(*)]
 == resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->com.google.guava#guava;16.0.1 [compile->compile(*)]
-== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.2 [compile->master(compile)]
-== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.21 [compile->master(compile)]
+== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.2 [compile->master(*)]
+== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.21 [compile->master(*)]
 == resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.2 [compile->compile(*)]
 == resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)]
 == resolving dependencies com.typesafe.play#play-jdbc_2.11;2.5.10->com.zaxxer#HikariCP;2.5.1 [compile->master(compile)]
@@ -2686,6 +2597,10 @@ excluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compi
 == resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.10 [runtime->runtime(*)]
 == resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.10 [runtime->compile]
 == resolving dependencies scim#scim_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ws_2.11;2.5.10 [compile->master]
+== resolving dependencies scim#scim_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.5.10 [compile->default(compile)]
+== resolving dependencies scim#scim_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.5.10 [compile->runtime]
+== resolving dependencies scim#scim_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.5.10 [compile->compile]
+== resolving dependencies scim#scim_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.5.10 [compile->master]
 == resolving dependencies scim#scim_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.10 [test->default(compile)]
 == resolving dependencies scim#scim_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.10 [test->runtime]
 == resolving dependencies scim#scim_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.10 [test->compile]
@@ -3817,14 +3732,14 @@ sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.6 
 sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.6
 	found org.scala-lang#scala-compiler;2.11.6 in sbt-chain
 == resolving dependencies com.typesafe.play#twirl-compiler_2.11;1.1.1->org.scala-lang#scala-compiler;2.11.6 [compile->compile(*)]
-== resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
-== resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->master(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.7 [compile->master(*)]
 == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
 == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-== resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-reflect;2.11.6 [compile->master(compile)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-reflect;2.11.6 [compile->master(*)]
 Read from stdout: Resolving org.scala-lang#scala-reflect;2.11.6 ...
 Resolving org.scala-lang#scala-reflect;2.11.6 ...
-sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.6
 	found org.scala-lang#scala-reflect;2.11.6 in sbt-chain
 	[2.11.6] org.scala-lang#scala-reflect;2.11.6
@@ -3833,20 +3748,20 @@ sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.6
 == resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
 == resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
 == resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-== resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-xml_2.11;1.0.3 [compile->master(compile)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-xml_2.11;1.0.3 [compile->master(*)]
 Read from stdout: Resolving org.scala-lang.modules#scala-xml_2.11;1.0.3 ...
 Resolving org.scala-lang.modules#scala-xml_2.11;1.0.3 ...
-sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.3
 	found org.scala-lang.modules#scala-xml_2.11;1.0.3 in sbt-chain
 == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-xml_2.11;1.0.3 [compile->compile(*)]
-== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.4 [compile->master(compile)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.4 [compile->master(*)]
 == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.4 [compile->compile(*)]
 == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-== resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [compile->master(compile)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [compile->master(*)]
 Read from stdout: Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 ...
 Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 ...
-sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3
 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 in sbt-chain
 == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [compile->compile(*)]
@@ -3965,24 +3880,24 @@ sbt-chain: module revision found in cache: org.json4s#json4s-core_2.11;3.2.10
 	found org.json4s#json4s-core_2.11;3.2.10 in sbt-chain
 == resolving dependencies org.scala-sbt#serialization_2.11;0.1.0->org.json4s#json4s-core_2.11;3.2.10 [compile->runtime]
 == resolving dependencies org.scala-sbt#serialization_2.11;0.1.0->org.json4s#json4s-core_2.11;3.2.10 [compile->compile]
-excluding dependency: org.scala-lang#scalap;2.11.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
-== resolving dependencies org.json4s#json4s-core_2.11;3.2.10->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
-excluding dependency: org.scala-lang#scalap;2.11.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
-excluding dependency: org.scala-lang#scalap;2.11.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime
-== resolving dependencies org.json4s#json4s-core_2.11;3.2.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+excluding dependency: org.scala-lang#scalap;2.11.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+== resolving dependencies org.json4s#json4s-core_2.11;3.2.10->org.scala-lang#scala-library;2.11.0 [compile->master(*)]
+excluding dependency: org.scala-lang#scalap;2.11.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+excluding dependency: org.scala-lang#scalap;2.11.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime
+== resolving dependencies org.json4s#json4s-core_2.11;3.2.10->org.scala-lang#scala-library;2.11.7 [compile->master(*)]
 == resolving dependencies org.json4s#json4s-core_2.11;3.2.10->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
 == resolving dependencies org.json4s#json4s-core_2.11;3.2.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-== resolving dependencies org.json4s#json4s-core_2.11;3.2.10->org.json4s#json4s-ast_2.11;3.2.10 [compile->master(compile)]
-excluding dependency: org.scala-lang#scalap;2.11.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
-excluding dependency: org.scala-lang#scalap;2.11.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime
+== resolving dependencies org.json4s#json4s-core_2.11;3.2.10->org.json4s#json4s-ast_2.11;3.2.10 [compile->master(*)]
+excluding dependency: org.scala-lang#scalap;2.11.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+excluding dependency: org.scala-lang#scalap;2.11.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime
 Read from stdout: Resolving org.json4s#json4s-ast_2.11;3.2.10 ...
 Resolving org.json4s#json4s-ast_2.11;3.2.10 ...
-sbt-chain: Checking cache for: dependency: org.json4s#json4s-ast_2.11;3.2.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+sbt-chain: Checking cache for: dependency: org.json4s#json4s-ast_2.11;3.2.10 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 sbt-chain: module revision found in cache: org.json4s#json4s-ast_2.11;3.2.10
 	found org.json4s#json4s-ast_2.11;3.2.10 in sbt-chain
 == resolving dependencies org.json4s#json4s-core_2.11;3.2.10->org.json4s#json4s-ast_2.11;3.2.10 [compile->compile(*)]
-== resolving dependencies org.json4s#json4s-ast_2.11;3.2.10->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
-== resolving dependencies org.json4s#json4s-ast_2.11;3.2.10->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies org.json4s#json4s-ast_2.11;3.2.10->org.scala-lang#scala-library;2.11.0 [compile->master(*)]
+== resolving dependencies org.json4s#json4s-ast_2.11;3.2.10->org.scala-lang#scala-library;2.11.7 [compile->master(*)]
 == resolving dependencies org.json4s#json4s-ast_2.11;3.2.10->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
 == resolving dependencies org.json4s#json4s-ast_2.11;3.2.10->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 == resolving dependencies org.json4s#json4s-core_2.11;3.2.10->org.json4s#json4s-ast_2.11;3.2.10 [compile->runtime(*)]
@@ -3990,18 +3905,18 @@ sbt-chain: module revision found in cache: org.json4s#json4s-ast_2.11;3.2.10
 == resolving dependencies org.json4s#json4s-ast_2.11;3.2.10->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)]
 == resolving dependencies org.json4s#json4s-ast_2.11;3.2.10->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
 == resolving dependencies org.json4s#json4s-ast_2.11;3.2.10->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-== resolving dependencies org.json4s#json4s-core_2.11;3.2.10->com.thoughtworks.paranamer#paranamer;2.6 [compile->master(compile)]
-excluding dependency: org.scala-lang#scalap;2.11.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
-excluding dependency: org.scala-lang#scalap;2.11.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime
+== resolving dependencies org.json4s#json4s-core_2.11;3.2.10->com.thoughtworks.paranamer#paranamer;2.6 [compile->master(*)]
+excluding dependency: org.scala-lang#scalap;2.11.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+excluding dependency: org.scala-lang#scalap;2.11.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime
 Read from stdout: Resolving com.thoughtworks.paranamer#paranamer;2.6 ...
 Resolving com.thoughtworks.paranamer#paranamer;2.6 ...
-sbt-chain: Checking cache for: dependency: com.thoughtworks.paranamer#paranamer;2.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+sbt-chain: Checking cache for: dependency: com.thoughtworks.paranamer#paranamer;2.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 sbt-chain: module revision found in cache: com.thoughtworks.paranamer#paranamer;2.6
 	found com.thoughtworks.paranamer#paranamer;2.6 in sbt-chain
 == resolving dependencies org.json4s#json4s-core_2.11;3.2.10->com.thoughtworks.paranamer#paranamer;2.6 [compile->compile(*)]
 == resolving dependencies org.json4s#json4s-core_2.11;3.2.10->com.thoughtworks.paranamer#paranamer;2.6 [compile->runtime(*)]
 == resolving dependencies org.json4s#json4s-core_2.11;3.2.10->com.thoughtworks.paranamer#paranamer;2.6 [compile->compile]
-excluding dependency: org.scala-lang#scalap;2.11.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime
+excluding dependency: org.scala-lang#scalap;2.11.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime
 == resolving dependencies org.json4s#json4s-core_2.11;3.2.10->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)]
 == resolving dependencies org.json4s#json4s-core_2.11;3.2.10->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
 == resolving dependencies org.json4s#json4s-core_2.11;3.2.10->org.scala-lang#scala-library;2.11.7 [runtime->compile]
@@ -4018,7 +3933,7 @@ sbt-chain: module revision found in cache: org.spire-math#jawn-parser_2.11;0.6.0
 	found org.spire-math#jawn-parser_2.11;0.6.0 in sbt-chain
 == resolving dependencies org.scala-sbt#serialization_2.11;0.1.0->org.spire-math#jawn-parser_2.11;0.6.0 [compile->runtime]
 == resolving dependencies org.scala-sbt#serialization_2.11;0.1.0->org.spire-math#jawn-parser_2.11;0.6.0 [compile->compile]
-== resolving dependencies org.spire-math#jawn-parser_2.11;0.6.0->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
+== resolving dependencies org.spire-math#jawn-parser_2.11;0.6.0->org.scala-lang#scala-library;2.11.2 [compile->master(*)]
 == resolving dependencies org.spire-math#jawn-parser_2.11;0.6.0->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
 == resolving dependencies org.spire-math#jawn-parser_2.11;0.6.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 == resolving dependencies org.spire-math#jawn-parser_2.11;0.6.0->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)]
@@ -4033,15 +3948,15 @@ sbt-chain: module revision found in cache: org.spire-math#json4s-support_2.11;0.
 	found org.spire-math#json4s-support_2.11;0.6.0 in sbt-chain
 == resolving dependencies org.scala-sbt#serialization_2.11;0.1.0->org.spire-math#json4s-support_2.11;0.6.0 [compile->runtime]
 == resolving dependencies org.scala-sbt#serialization_2.11;0.1.0->org.spire-math#json4s-support_2.11;0.6.0 [compile->compile]
-== resolving dependencies org.spire-math#json4s-support_2.11;0.6.0->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
-== resolving dependencies org.spire-math#json4s-support_2.11;0.6.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies org.spire-math#json4s-support_2.11;0.6.0->org.scala-lang#scala-library;2.11.2 [compile->master(*)]
+== resolving dependencies org.spire-math#json4s-support_2.11;0.6.0->org.scala-lang#scala-library;2.11.7 [compile->master(*)]
 == resolving dependencies org.spire-math#json4s-support_2.11;0.6.0->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
 == resolving dependencies org.spire-math#json4s-support_2.11;0.6.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-== resolving dependencies org.spire-math#json4s-support_2.11;0.6.0->org.spire-math#jawn-parser_2.11;0.6.0 [compile->master(compile)]
+== resolving dependencies org.spire-math#json4s-support_2.11;0.6.0->org.spire-math#jawn-parser_2.11;0.6.0 [compile->master(*)]
 == resolving dependencies org.spire-math#json4s-support_2.11;0.6.0->org.spire-math#jawn-parser_2.11;0.6.0 [compile->compile(*)]
 == resolving dependencies org.spire-math#json4s-support_2.11;0.6.0->org.spire-math#jawn-parser_2.11;0.6.0 [compile->runtime(*)]
 == resolving dependencies org.spire-math#json4s-support_2.11;0.6.0->org.spire-math#jawn-parser_2.11;0.6.0 [compile->compile]
-== resolving dependencies org.spire-math#json4s-support_2.11;0.6.0->org.json4s#json4s-ast_2.11;3.2.10 [compile->master(compile)]
+== resolving dependencies org.spire-math#json4s-support_2.11;0.6.0->org.json4s#json4s-ast_2.11;3.2.10 [compile->master(*)]
 == resolving dependencies org.spire-math#json4s-support_2.11;0.6.0->org.json4s#json4s-ast_2.11;3.2.10 [compile->compile(*)]
 == resolving dependencies org.spire-math#json4s-support_2.11;0.6.0->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)]
 == resolving dependencies org.spire-math#json4s-support_2.11;0.6.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
@@ -4239,6 +4154,7 @@ all callers are evicted for commons-logging#commons-logging;1.1.1: evicting too
 	[NOT REQUIRED] mysql#mysql-connector-java;5.1.23!mysql-connector-java.jar
 	[NOT REQUIRED] com.typesafe.play#play-cache_2.11;2.5.10!play-cache_2.11.jar
 	[NOT REQUIRED] com.typesafe.play#play-ws_2.11;2.5.10!play-ws_2.11.jar
+	[NOT REQUIRED] com.typesafe.play#play-jdbc_2.11;2.5.10!play-jdbc_2.11.jar
 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.4!commons-lang3.jar
 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.1!scala-xml_2.11.jar(bundle)
 	[NOT REQUIRED] com.typesafe.play#play_2.11;2.5.10!play_2.11.jar
@@ -4290,7 +4206,6 @@ all callers are evicted for commons-logging#commons-logging;1.1.1: evicting too
 	[NOT REQUIRED] io.netty#netty-common;4.0.41.Final!netty-common.jar
 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.1.7!logback-classic.jar
 	[NOT REQUIRED] ch.qos.logback#logback-core;1.1.7!logback-core.jar
-	[NOT REQUIRED] com.typesafe.play#play-jdbc_2.11;2.5.10!play-jdbc_2.11.jar
 	[NOT REQUIRED] com.typesafe.play#play-java_2.11;2.5.10!play-java_2.11.jar
 	[NOT REQUIRED] com.typesafe.play#play-jdbc-api_2.11;2.5.10!play-jdbc-api_2.11.jar
 	[NOT REQUIRED] com.jolbox#bonecp;0.8.0.RELEASE!bonecp.jar(bundle)
@@ -4410,196 +4325,87 @@ all callers are evicted for commons-logging#commons-logging;1.1.1: evicting too
 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.8!akka-actor_2.11.jar
 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.3.8!akka-testkit_2.11.jar
 	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(bundle)
-:: resolution report :: resolve 3495ms :: artifacts dl 95ms
-	report for scim#scim_2.11;1.0-SNAPSHOT compile produced in /Users/paulray/vlinks/SCIM/target/resolution-cache/reports/scim-scim_2.11-compile.xml
-	report for scim#scim_2.11;1.0-SNAPSHOT runtime produced in /Users/paulray/vlinks/SCIM/target/resolution-cache/reports/scim-scim_2.11-runtime.xml
-	report for scim#scim_2.11;1.0-SNAPSHOT test produced in /Users/paulray/vlinks/SCIM/target/resolution-cache/reports/scim-scim_2.11-test.xml
-	report for scim#scim_2.11;1.0-SNAPSHOT provided produced in /Users/paulray/vlinks/SCIM/target/resolution-cache/reports/scim-scim_2.11-provided.xml
-	report for scim#scim_2.11;1.0-SNAPSHOT optional produced in /Users/paulray/vlinks/SCIM/target/resolution-cache/reports/scim-scim_2.11-optional.xml
-	report for scim#scim_2.11;1.0-SNAPSHOT compile-internal produced in /Users/paulray/vlinks/SCIM/target/resolution-cache/reports/scim-scim_2.11-compile-internal.xml
-	report for scim#scim_2.11;1.0-SNAPSHOT runtime-internal produced in /Users/paulray/vlinks/SCIM/target/resolution-cache/reports/scim-scim_2.11-runtime-internal.xml
-	report for scim#scim_2.11;1.0-SNAPSHOT test-internal produced in /Users/paulray/vlinks/SCIM/target/resolution-cache/reports/scim-scim_2.11-test-internal.xml
-	report for scim#scim_2.11;1.0-SNAPSHOT plugin produced in /Users/paulray/vlinks/SCIM/target/resolution-cache/reports/scim-scim_2.11-plugin.xml
-	report for scim#scim_2.11;1.0-SNAPSHOT sources produced in /Users/paulray/vlinks/SCIM/target/resolution-cache/reports/scim-scim_2.11-sources.xml
-	report for scim#scim_2.11;1.0-SNAPSHOT docs produced in /Users/paulray/vlinks/SCIM/target/resolution-cache/reports/scim-scim_2.11-docs.xml
-	report for scim#scim_2.11;1.0-SNAPSHOT pom produced in /Users/paulray/vlinks/SCIM/target/resolution-cache/reports/scim-scim_2.11-pom.xml
-	report for scim#scim_2.11;1.0-SNAPSHOT scala-tool produced in /Users/paulray/vlinks/SCIM/target/resolution-cache/reports/scim-scim_2.11-scala-tool.xml
-	report for scim#scim_2.11;1.0-SNAPSHOT fork-run produced in /Users/paulray/vlinks/SCIM/target/resolution-cache/reports/scim-scim_2.11-fork-run.xml
-	resolve done (3495ms resolve - 95ms download)
+:: resolution report :: resolve 55262ms :: artifacts dl 46ms
+	report for scim#scim_2.11;1.0-SNAPSHOT compile produced in /Users/msage/personal/_git/SCIM/target/resolution-cache/reports/scim-scim_2.11-compile.xml
+	report for scim#scim_2.11;1.0-SNAPSHOT runtime produced in /Users/msage/personal/_git/SCIM/target/resolution-cache/reports/scim-scim_2.11-runtime.xml
+	report for scim#scim_2.11;1.0-SNAPSHOT test produced in /Users/msage/personal/_git/SCIM/target/resolution-cache/reports/scim-scim_2.11-test.xml
+	report for scim#scim_2.11;1.0-SNAPSHOT provided produced in /Users/msage/personal/_git/SCIM/target/resolution-cache/reports/scim-scim_2.11-provided.xml
+	report for scim#scim_2.11;1.0-SNAPSHOT optional produced in /Users/msage/personal/_git/SCIM/target/resolution-cache/reports/scim-scim_2.11-optional.xml
+	report for scim#scim_2.11;1.0-SNAPSHOT compile-internal produced in /Users/msage/personal/_git/SCIM/target/resolution-cache/reports/scim-scim_2.11-compile-internal.xml
+	report for scim#scim_2.11;1.0-SNAPSHOT runtime-internal produced in /Users/msage/personal/_git/SCIM/target/resolution-cache/reports/scim-scim_2.11-runtime-internal.xml
+	report for scim#scim_2.11;1.0-SNAPSHOT test-internal produced in /Users/msage/personal/_git/SCIM/target/resolution-cache/reports/scim-scim_2.11-test-internal.xml
+	report for scim#scim_2.11;1.0-SNAPSHOT plugin produced in /Users/msage/personal/_git/SCIM/target/resolution-cache/reports/scim-scim_2.11-plugin.xml
+	report for scim#scim_2.11;1.0-SNAPSHOT sources produced in /Users/msage/personal/_git/SCIM/target/resolution-cache/reports/scim-scim_2.11-sources.xml
+	report for scim#scim_2.11;1.0-SNAPSHOT docs produced in /Users/msage/personal/_git/SCIM/target/resolution-cache/reports/scim-scim_2.11-docs.xml
+	report for scim#scim_2.11;1.0-SNAPSHOT pom produced in /Users/msage/personal/_git/SCIM/target/resolution-cache/reports/scim-scim_2.11-pom.xml
+	report for scim#scim_2.11;1.0-SNAPSHOT scala-tool produced in /Users/msage/personal/_git/SCIM/target/resolution-cache/reports/scim-scim_2.11-scala-tool.xml
+	report for scim#scim_2.11;1.0-SNAPSHOT fork-run produced in /Users/msage/personal/_git/SCIM/target/resolution-cache/reports/scim-scim_2.11-fork-run.xml
+	resolve done (55262ms resolve - 46ms download)
 Read from stdout: Done updating.
 Done updating.
+Total time: 56 s, completed Feb 23, 2017 7:45:51 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@1cd05164, check cycles: false
+Total time: 0 s, completed Feb 23, 2017 7:45:52 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Users/msage/personal/_git/SCIM/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@234380e1, check cycles: false
+SLF4J: The following set of substitute loggers may have been accessed
+SLF4J: during the initialization phase. Logging calls during this
+SLF4J: phase were not honored. However, subsequent logging calls to these
+SLF4J: loggers will work as normally expected.
+SLF4J: See also http://www.slf4j.org/codes.html#substituteLogger
+SLF4J: org.webjars.CloseQuietly
 
 Initial source changes: 
-	removed:Set(/Users/paulray/vlinks/SCIM/app/services/Counter.scala, /Users/paulray/vlinks/SCIM/app/services/ApplicationTimer.scala, /Users/paulray/vlinks/SCIM/app/filters/ExampleFilter.scala, /Users/paulray/vlinks/SCIM/app/Filters.scala, /Users/paulray/vlinks/SCIM/app/Module.scala, /Users/paulray/vlinks/SCIM/app/controllers/CountController.scala, /Users/paulray/vlinks/SCIM/app/controllers/AsyncController.scala)
+	removed:Set()
 	added: Set()
-	modified: Set(/Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/controllers/routes.java, /Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/router/RoutesPrefix.scala, /Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala, /Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala, /Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/router/Routes.scala)
-Removed products: Set()
+	modified: Set(/Users/msage/personal/_git/SCIM/app/controllers/SCIMController.scala)
+Removed products: Set(/Users/msage/personal/_git/SCIM/target/scala-2.11/classes/controllers/SCIMController.class, /Users/msage/personal/_git/SCIM/target/scala-2.11/classes/service/MySqlUserService.class, /Users/msage/personal/_git/SCIM/target/scala-2.11/classes/controllers/SCIMController$$anonfun$createUser$1.class, /Users/msage/personal/_git/SCIM/target/scala-2.11/classes/models/Group$.class, /Users/msage/personal/_git/SCIM/target/scala-2.11/classes/controllers/SCIMController$$anonfun$deleteUser$1.class, /Users/msage/personal/_git/SCIM/target/scala-2.11/classes/controllers/SCIMController$$anonfun$users$1.class, /Users/msage/personal/_git/SCIM/target/scala-2.11/classes/service/MySqlUserService$$anonfun$searchGroups$1.class, /Users/msage/personal/_git/SCIM/target/scala-2.11/classes/service/MySqlUserService$$anonfun$searchGroups$2.class, /Users/msage/personal/_git/SCIM/target/scala-2.11/classes/controllers/SCIMController$$anonfun$updateUser$1.class, /Users/msage/personal/_git/SCIM/target/scala-2.11/classes/service/MySqlUserService$$anonfun$executeUdate$1.class, /Users/msage/personal/_git/SCIM/target/scala-2.11/classes/controllers/SCIMController$$anonfun$patchGroup$1.class, /Users/msage/personal/_git/SCIM/target/scala-2.11/classes/service/MySqlUserService$$anonfun$searchUsers$2.class, /Users/msage/personal/_git/SCIM/target/scala-2.11/classes/controllers/SCIMController$$anonfun$group$1.class, /Users/msage/personal/_git/SCIM/target/scala-2.11/classes/models/Group$$anonfun$2.class, /Users/msage/personal/_git/SCIM/target/scala-2.11/classes/service/MySqlUserService$$anonfun$searchUsers$1.class, /Users/msage/personal/_git/SCIM/target/scala-2.11/classes/service/MySqlUserService$$anonfun$searchUsers$3.class, /Users/msage/personal/_git/SCIM/target/scala-2.11/classes/controllers/SCIMController$$anonfun$groups$1.class, /Users/msage/personal/_git/SCIM/target/scala-2.11/classes/models/Group.class, /Users/msage/personal/_git/SCIM/target/scala-2.11/classes/service/UserService.class, /Users/msage/personal/_git/SCIM/target/scala-2.11/classes/models/Group$$anonfun$1.class, /Users/msage/personal/_git/SCIM/target/scala-2.11/classes/controllers/SCIMController$$anonfun$user$1.class)
 External API changes: API Changes: Set()
 Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(/Users/paulray/vlinks/SCIM/app/services/Counter.scala, /Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/controllers/routes.java, /Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/router/RoutesPrefix.scala, /Users/paulray/vlinks/SCIM/app/services/ApplicationTimer.scala, /Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala, /Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala, /Users/paulray/vlinks/SCIM/app/filters/ExampleFilter.scala, /Users/paulray/vlinks/SCIM/app/Filters.scala, /Users/paulray/vlinks/SCIM/app/Module.scala, /Users/paulray/vlinks/SCIM/app/controllers/CountController.scala, /Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/router/Routes.scala, /Users/paulray/vlinks/SCIM/app/controllers/AsyncController.scala)
+Initial directly invalidated sources: Set(/Users/msage/personal/_git/SCIM/app/controllers/SCIMController.scala)
 
 Sources indirectly invalidated by:
-	product: Set()
+	product: Set(/Users/msage/personal/_git/SCIM/app/controllers/SCIMController.scala, /Users/msage/personal/_git/SCIM/app/service/UserService.scala, /Users/msage/personal/_git/SCIM/app/models/Group.scala)
 	binary dep: Set()
 	external source: Set()
-All initially invalidated sources: Set(/Users/paulray/vlinks/SCIM/app/services/Counter.scala, /Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/controllers/routes.java, /Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/router/RoutesPrefix.scala, /Users/paulray/vlinks/SCIM/app/services/ApplicationTimer.scala, /Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala, /Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala, /Users/paulray/vlinks/SCIM/app/filters/ExampleFilter.scala, /Users/paulray/vlinks/SCIM/app/Filters.scala, /Users/paulray/vlinks/SCIM/app/Module.scala, /Users/paulray/vlinks/SCIM/app/controllers/CountController.scala, /Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/router/Routes.scala, /Users/paulray/vlinks/SCIM/app/controllers/AsyncController.scala)
+All initially invalidated sources: Set(/Users/msage/personal/_git/SCIM/app/models/Group.scala, /Users/msage/personal/_git/SCIM/app/controllers/SCIMController.scala, /Users/msage/personal/_git/SCIM/app/service/UserService.scala)
 
-Recompiling all 8 sources: invalidated sources (12) exceeded 50.0% of all sources
-Read from stdout: Compiling 7 Scala sources and 1 Java source to /Users/paulray/vlinks/SCIM/target/scala-2.11/classes...
-Compiling 7 Scala sources and 1 Java source to /Users/paulray/vlinks/SCIM/target/scala-2.11/classes...
+Read from stdout: Compiling 3 Scala sources to /Users/msage/personal/_git/SCIM/target/scala-2.11/classes...
+Compiling 3 Scala sources to /Users/msage/personal/_git/SCIM/target/scala-2.11/classes...
 Getting compiler-interface from component compiler for Scala 2.11.7
 Other repositories:
 Default repositories:
 Getting compiler-interface from component compiler for Scala 2.11.7
 Other repositories:
 Default repositories:
-Running cached compiler 37c8b06c, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Running cached compiler 6ef6078e, interfacing (CompilerInterface) with Scala compiler version 2.11.7
 Calling Scala compiler with arguments  (CompilerInterface):
 	-deprecation
 	-unchecked
 	-encoding
 	utf8
 	-bootclasspath
-	/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/classes:/Users/Shared/activator-dist-1.3.12/repository/org.scala-lang/scala-library/2.11.7/jars/scala-library.jar
+	/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/classes:/Users/msage/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
 	-classpath
-	/Users/paulray/vlinks/SCIM/target/scala-2.11/classes:/Users/Shared/activator-dist-1.3.12/repository/com.typesafe.play/twirl-api_2.11/1.1.1/jars/twirl-api_2.11.jar:/Users/paulray/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/Users/paulray/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/Users/paulray/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.5.10.jar:/Users/paulray/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.5.10.jar:/Users/paulray/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.5.10.jar:/Users/paulray/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.5.10.jar:/Users/paulray/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.5.10.jar:/Users/paulray/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/Users/paulray/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/Users/paulray/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.5.10.jar:/Users/paulray/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.5.10.jar:/Users/paulray/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.5.10.jar:/Users/paulray/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.9.6.jar:/Users/Shared/activator-dist-1.3.12/repository/org.joda/joda-convert/1.8.1/jars/joda-convert.jar:/Users/Shared/activator-dist-1.3.12/repository/org.scala-lang/scala-reflect/2.11.7/jars/scala-reflect.jar:/Users/paulray/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.7.8.jar:/Users/paulray/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.7.8.jar:/Users/paulray/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.7.8.jar:/Users/paulray/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.7.8.jar:/Users/paulray/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.7.8.jar:/Users/paulray/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.5.10.jar:/Users/Shared/activator-dist-1.3.12/repository/org.slf4j/slf4j-api/1.7.21/jars/slf4j-api.jar:/Users/Shared/activator-dist-1.3.12/repository/org.slf4j/jul-to-slf4j/1.7.21/jars/jul-to-slf4j.jar:/Users/Shared/activator-dist-1.3.12/repository/org.slf4j/jcl-over-slf4j/1.7.21/jars/jcl-over-slf4j.jar:/Users/paulray/.ivy2/cache/com.typesafe.play/play-streams_2.11/jars/play-streams_2.11-2.5.10.jar:/Users/Shared/activator-dist-1.3.12/repository/org.reactivestreams/reactive-streams/1.0.0/jars/reactive-streams.jar:/Users/paulray/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.4.12.jar:/Users/paulray/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.12.jar:/Users/Shared/activator-dist-1.3.12/repository/org.scala-lang.modules/scala-java8-compat_2.11/0.7.0/bundles/scala-java8-compat_2.11.jar:/Users/Shared/activator-dist-1.3.12/repository/com.typesafe/ssl-config-core_2.11/0.2.1/bundles/ssl-config-core_2.11.jar:/Users/paulray/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/Users/paulray/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.4.12.jar:/Users/Shared/activator-dist-1.3.12/repository/commons-codec/commons-codec/1.10/jars/commons-codec.jar:/Users/paulray/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/Users/paulray/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/Users/paulray/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/Users/Shared/activator-dist-1.3.12/repository/com.google.inject/guice/4.0/jars/guice.jar:/Users/paulray/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/Users/paulray/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/Users/Shared/activator-dist-1.3.12/repository/com.google.inject.extensions/guice-assistedinject/4.0/jars/guice-assistedinject.jar:/Users/paulray/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.5.10.jar:/Users/Shared/activator-dist-1.3.12/repository/com.typesafe.netty/netty-reactive-streams-http/1.0.8/jars/netty-reactive-streams-http.jar:/Users/Shared/activator-dist-1.3.12/repository/com.typesafe.netty/netty-reactive-streams/1.0.8/jars/netty-reactive-streams.jar:/Users/Shared/activator-dist-1.3.12/repository/io.netty/netty-handler/4.0.41.Final/jars/netty-handler.jar:/Users/Shared/activator-dist-1.3.12/repository/io.netty/netty-buffer/4.0.41.Final/jars/netty-buffer.jar:/Users/Shared/activator-dist-1.3.12/repository/io.netty/netty-common/4.0.41.Final/jars/netty-common.jar:/Users/Shared/activator-dist-1.3.12/repository/io.netty/netty-transport/4.0.41.Final/jars/netty-transport.jar:/Users/Shared/activator-dist-1.3.12/repository/io.netty/netty-codec/4.0.41.Final/jars/netty-codec.jar:/Users/Shared/activator-dist-1.3.12/repository/io.netty/netty-codec-http/4.0.41.Final/jars/netty-codec-http.jar:/Users/Shared/activator-dist-1.3.12/repository/io.netty/netty-transport-native-epoll/4.0.41.Final/jars/netty-transport-native-epoll-linux-x86_64.jar:/Users/paulray/.ivy2/cache/com.typesafe.play/play-logback_2.11/jars/play-logback_2.11-2.5.10.jar:/Users/Shared/activator-dist-1.3.12/repository/ch.qos.logback/logback-classic/1.1.7/jars/logback-classic.jar:/Users/Shared/activator-dist-1.3.12/repository/ch.qos.logback/logback-core/1.1.7/jars/logback-core.jar:/Users/paulray/.ivy2/cache/com.typesafe.play/play-java-jdbc_2.11/jars/play-java-jdbc_2.11-2.5.10.jar:/Users/paulray/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.5.10.jar:/Users/paulray/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.5.10.jar:/Users/Shared/activator-dist-1.3.12/repository/com.jolbox/bonecp/0.8.0.RELEASE/bundles/bonecp.jar:/Users/Shared/activator-dist-1.3.12/repository/com.zaxxer/HikariCP/2.5.1/bundles/HikariCP.jar:/Users/Shared/activator-dist-1.3.12/repository/com.googlecode.usc/jdbcdslog/1.0.6.2/jars/jdbcdslog.jar:/Users/Shared/activator-dist-1.3.12/repository/com.h2database/h2/1.4.192/jars/h2.jar:/Users/Shared/activator-dist-1.3.12/repository/tyrex/tyrex/1.0.1/jars/tyrex.jar:/Users/paulray/.ivy2/cache/com.typesafe.play/play-java_2.11/jars/play-java_2.11-2.5.10.jar:/Users/paulray/.ivy2/cache/org.yaml/snakeyaml/bundles/snakeyaml-1.16.jar:/Users/paulray/.ivy2/cache/org.hibernate/hibernate-validator/jars/hibernate-validator-5.2.4.Final.jar:/Users/paulray/.ivy2/cache/javax.validation/validation-api/jars/validation-api-1.1.0.Final.jar:/Users/paulray/.ivy2/cache/org.jboss.logging/jboss-logging/jars/jboss-logging-3.2.1.Final.jar:/Users/paulray/.ivy2/cache/com.fasterxml/classmate/bundles/classmate-1.1.0.jar:/Users/paulray/.ivy2/cache/javax.el/javax.el-api/jars/javax.el-api-3.0.0.jar:/Users/paulray/.ivy2/cache/org.springframework/spring-context/jars/spring-context-4.2.7.RELEASE.jar:/Users/paulray/.ivy2/cache/org.springframework/spring-core/jars/spring-core-4.2.7.RELEASE.jar:/Users/paulray/.ivy2/cache/org.springframework/spring-beans/jars/spring-beans-4.2.7.RELEASE.jar:/Users/paulray/.ivy2/cache/org.reflections/reflections/jars/reflections-0.9.10.jar:/Users/Shared/activator-dist-1.3.12/repository/com.google.guava/guava/19.0/bundles/guava.jar:/Users/paulray/.ivy2/cache/net.jodah/typetools/bundles/typetools-0.4.4.jar:/Users/Shared/activator-dist-1.3.12/repository/com.google.code.findbugs/jsr305/3.0.1/jars/jsr305.jar:/Users/paulray/.ivy2/cache/org.apache.tomcat/tomcat-servlet-api/jars/tomcat-servlet-api-8.0.33.jar:/Users/paulray/.ivy2/cache/com.typesafe.play/anorm_2.11/jars/anorm_2.11-2.5.0.jar:/Users/paulray/.ivy2/cache/com.typesafe.play/anorm-tokenizer_2.11/jars/anorm-tokenizer_2.11-2.5.0.jar:/Users/paulray/.ivy2/cache/com.jsuereth/scala-arm_2.11/jars/scala-arm_2.11-1.4.jar:/Users/paulray/.ivy2/cache/org.scala-lang.plugins/scala-continuations-library_2.11/bundles/scala-continuations-library_2.11-1.0.1.jar:/Users/paulray/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.23.jar:/Users/paulray/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.5.10.jar:/Users/Shared/activator-dist-1.3.12/repository/net.sf.ehcache/ehcache-core/2.6.11/jars/ehcache-core.jar:/Users/paulray/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.5.10.jar:/Users/Shared/activator-dist-1.3.12/repository/org.asynchttpclient/async-http-client/2.0.11/jars/async-http-client.jar:/Users/Shared/activator-dist-1.3.12/repository/org.asynchttpclient/netty-resolver-dns/2.0.11/jars/netty-resolver-dns.jar:/Users/Shared/activator-dist-1.3.12/repository/org.asynchttpclient/netty-resolver/2.0.11/jars/netty-resolver.jar:/Users/Shared/activator-dist-1.3.12/repository/org.asynchttpclient/netty-codec-dns/2.0.11/jars/netty-codec-dns.jar:/Users/Shared/activator-dist-1.3.12/repository/org.javassist/javassist/3.20.0-GA/bundles/javassist.jar:/Users/paulray/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/Users/paulray/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/Users/Shared/activator-dist-1.3.12/repository/org.apache.httpcomponents/httpcore/4.0.1/jars/httpcore.jar:/Users/Shared/activator-dist-1.3.12/repository/org.apache.httpcomponents/httpclient/4.0.1/jars/httpclient.jar:/Users/paulray/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar
-Scala compilation took 5.190488516 s
-Attempting to call com.sun.tools.javac.api.JavacTool@716e5427 directly...
-Java compilation took 0.65706963 s
-Java analysis took 0.047406333 s
-Java compile + analysis took 0.711973009 s
-Invalidating /Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/router/Routes.scala...
-Invalidating (transitively) by inheritance from /Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/router/Routes.scala...
-Initial set of included nodes: Set(/Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/router/Routes.scala)
-Invalidated by transitive inheritance dependency: Set(/Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/router/Routes.scala)
-The /Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/router/Routes.scala source file has the following regular definitions changed:
-	controllers_CountController_count1_invoker, controllers_Assets_versioned1_invoker, controllers_Assets_versioned3_route, controllers_CountController_count1_route, <init>, controllers_Assets_versioned3_invoker, controllers_AsyncController_message2_route, controllers_AsyncController_message2_invoker, controllers_Assets_versioned1_route.
-All member reference dependencies will be considered within this context.
-Invalidating /Users/paulray/vlinks/SCIM/app/services/Counter.scala...
-Invalidating (transitively) by inheritance from /Users/paulray/vlinks/SCIM/app/services/Counter.scala...
-Initial set of included nodes: Set(/Users/paulray/vlinks/SCIM/app/services/Counter.scala)
-Invalidated by transitive inheritance dependency: Set(/Users/paulray/vlinks/SCIM/app/services/Counter.scala)
-The /Users/paulray/vlinks/SCIM/app/services/Counter.scala source file has the following regular definitions changed:
-	notify, nextCount, wait, $asInstanceOf, equals, AtomicCounter, asInstanceOf, synchronized, $isInstanceOf, atomicCounter, notifyAll, isInstanceOf, <init>, ==, clone, toString, !=, getClass, Counter, ne, eq, ##, finalize, hashCode.
-All member reference dependencies will be considered within this context.
-Invalidating /Users/paulray/vlinks/SCIM/app/controllers/AsyncController.scala...
-Invalidating (transitively) by inheritance from /Users/paulray/vlinks/SCIM/app/controllers/AsyncController.scala...
-Initial set of included nodes: Set(/Users/paulray/vlinks/SCIM/app/controllers/AsyncController.scala)
-Invalidated by transitive inheritance dependency: Set(/Users/paulray/vlinks/SCIM/app/controllers/AsyncController.scala)
-The /Users/paulray/vlinks/SCIM/app/controllers/AsyncController.scala source file has the following implicit definitions changed:
-	request2session, request2flash, request2lang.
-All member reference dependencies will be considered within this context.
-Invalidating /Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/controllers/routes.java...
-Invalidating (transitively) by inheritance from /Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/controllers/routes.java...
-Initial set of included nodes: Set(/Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/controllers/routes.java)
-Invalidated by transitive inheritance dependency: Set(/Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/controllers/routes.java)
-The /Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/controllers/routes.java source file has the following regular definitions changed:
-	AsyncController, CountController.
-All member reference dependencies will be considered within this context.
-Name hashing optimization doesn't apply to non-Scala dependency: /Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/controllers/routes.java
-None of the modified names appears in /Users/paulray/vlinks/SCIM/target/scala-2.11/twirl/main/views/html/main.template.scala. This dependency is not being considered for invalidation.
-Invalidating /Users/paulray/vlinks/SCIM/app/controllers/CountController.scala...
-Invalidating (transitively) by inheritance from /Users/paulray/vlinks/SCIM/app/controllers/CountController.scala...
-Initial set of included nodes: Set(/Users/paulray/vlinks/SCIM/app/controllers/CountController.scala)
-Invalidated by transitive inheritance dependency: Set(/Users/paulray/vlinks/SCIM/app/controllers/CountController.scala)
-The /Users/paulray/vlinks/SCIM/app/controllers/CountController.scala source file has the following implicit definitions changed:
-	request2session, request2flash, request2lang.
-All member reference dependencies will be considered within this context.
-Invalidating /Users/paulray/vlinks/SCIM/app/Filters.scala...
-Invalidating (transitively) by inheritance from /Users/paulray/vlinks/SCIM/app/Filters.scala...
-Initial set of included nodes: Set(/Users/paulray/vlinks/SCIM/app/Filters.scala)
-Invalidated by transitive inheritance dependency: Set(/Users/paulray/vlinks/SCIM/app/Filters.scala)
-The /Users/paulray/vlinks/SCIM/app/Filters.scala source file has the following regular definitions changed:
-	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, notifyAll, isInstanceOf, asJava, <init>, ==, clone, filters, toString, !=, getClass, Filters, ne, eq, ##, finalize, hashCode.
-All member reference dependencies will be considered within this context.
-Invalidating /Users/paulray/vlinks/SCIM/app/services/ApplicationTimer.scala...
-Invalidating (transitively) by inheritance from /Users/paulray/vlinks/SCIM/app/services/ApplicationTimer.scala...
-Initial set of included nodes: Set(/Users/paulray/vlinks/SCIM/app/services/ApplicationTimer.scala)
-Invalidated by transitive inheritance dependency: Set(/Users/paulray/vlinks/SCIM/app/services/ApplicationTimer.scala)
-The /Users/paulray/vlinks/SCIM/app/services/ApplicationTimer.scala source file has the following regular definitions changed:
-	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, ApplicationTimer, $isInstanceOf, notifyAll, isInstanceOf, <init>, ==, clone, toString, !=, getClass, start, ne, eq, ##, finalize, hashCode.
-All member reference dependencies will be considered within this context.
-Invalidating /Users/paulray/vlinks/SCIM/app/filters/ExampleFilter.scala...
-Invalidating (transitively) by inheritance from /Users/paulray/vlinks/SCIM/app/filters/ExampleFilter.scala...
-Initial set of included nodes: Set(/Users/paulray/vlinks/SCIM/app/filters/ExampleFilter.scala)
-Invalidated by transitive inheritance dependency: Set(/Users/paulray/vlinks/SCIM/app/filters/ExampleFilter.scala)
-The /Users/paulray/vlinks/SCIM/app/filters/ExampleFilter.scala source file has the following implicit definitions changed:
-	mat.
-All member reference dependencies will be considered within this context.
-Invalidating /Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala...
-Invalidating (transitively) by inheritance from /Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala...
-Initial set of included nodes: Set(/Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala)
-Invalidated by transitive inheritance dependency: Set(/Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala)
-The /Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala source file has the following regular definitions changed:
-	notify, count, _defaultPrefix, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, ReverseCountController, ReverseAsyncController, notifyAll, isInstanceOf, <init>, ==, clone, message, toString, !=, getClass, ne, eq, ##, finalize, hashCode.
-All member reference dependencies will be considered within this context.
-Name hashing optimization doesn't apply to non-Scala dependency: /Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/controllers/routes.java
-The following modified names cause invalidation of /Users/paulray/vlinks/SCIM/target/scala-2.11/twirl/main/views/html/main.template.scala: Set(<init>)
-Invalidating /Users/paulray/vlinks/SCIM/app/Module.scala...
-Invalidating (transitively) by inheritance from /Users/paulray/vlinks/SCIM/app/Module.scala...
-Initial set of included nodes: Set(/Users/paulray/vlinks/SCIM/app/Module.scala)
-Invalidated by transitive inheritance dependency: Set(/Users/paulray/vlinks/SCIM/app/Module.scala)
-The /Users/paulray/vlinks/SCIM/app/Module.scala source file has the following regular definitions changed:
-	notify, bindListener, wait, $asInstanceOf, requestStaticInjection, requireBinding, binder, equals, getProvider, asInstanceOf, bindScope, synchronized, bind, $isInstanceOf, configure, requestInjection, notifyAll, addError, isInstanceOf, bindInterceptor, <init>, getMembersInjector, ==, clone, bindConstant, toString, !=, getClass, install, currentStage, ne, eq, Module, convertToTypes, ##, finalize, hashCode.
-All member reference dependencies will be considered within this context.
-Invalidating /Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala...
-Invalidating (transitively) by inheritance from /Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala...
-Initial set of included nodes: Set(/Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala)
-Invalidated by transitive inheritance dependency: Set(/Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala)
-The /Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala source file has the following regular definitions changed:
-	notify, count, _defaultPrefix, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, ReverseCountController, ReverseAsyncController, notifyAll, isInstanceOf, <init>, ==, clone, message, toString, !=, getClass, ne, eq, ##, finalize, hashCode.
-All member reference dependencies will be considered within this context.
-Name hashing optimization doesn't apply to non-Scala dependency: /Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/controllers/routes.java
+	/Users/msage/personal/_git/SCIM/target/scala-2.11/classes:/Users/msage/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.1.1.jar:/Users/msage/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/Users/msage/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/Users/msage/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.5.10.jar:/Users/msage/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.5.10.jar:/Users/msage/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.5.10.jar:/Users/msage/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.5.10.jar:/Users/msage/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.5.10.jar:/Users/msage/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/Users/msage/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/Users/msage/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.5.10.jar:/Users/msage/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.5.10.jar:/Users/msage/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.5.10.jar:/Users/msage/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.9.6.jar:/Users/msage/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.8.1.jar:/Users/msage/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.7.jar:/Users/msage/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.7.8.jar:/Users/msage/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.7.8.jar:/Users/msage/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.7.8.jar:/Users/msage/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.7.8.jar:/Users/msage/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.7.8.jar:/Users/msage/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.5.10.jar:/Users/msage/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar:/Users/msage/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.21.jar:/Users/msage/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.21.jar:/Users/msage/.ivy2/cache/com.typesafe.play/play-streams_2.11/jars/play-streams_2.11-2.5.10.jar:/Users/msage/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.0.jar:/Users/msage/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.4.12.jar:/Users/msage/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.12.jar:/Users/msage/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.7.0.jar:/Users/msage/.ivy2/cache/com.typesafe/ssl-config-core_2.11/bundles/ssl-config-core_2.11-0.2.1.jar:/Users/msage/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/Users/msage/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.4.12.jar:/Users/msage/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar:/Users/msage/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/Users/msage/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/Users/msage/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/Users/msage/.ivy2/cache/com.google.inject/guice/jars/guice-4.0.jar:/Users/msage/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/Users/msage/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/Users/msage/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/jars/guice-assistedinject-4.0.jar:/Users/msage/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.5.10.jar:/Users/msage/.ivy2/cache/com.typesafe.netty/netty-reactive-streams-http/jars/netty-reactive-streams-http-1.0.8.jar:/Users/msage/.ivy2/cache/com.typesafe.netty/netty-reactive-streams/jars/netty-reactive-streams-1.0.8.jar:/Users/msage/.ivy2/cache/io.netty/netty-handler/jars/netty-handler-4.0.41.Final.jar:/Users/msage/.ivy2/cache/io.netty/netty-buffer/jars/netty-buffer-4.0.41.Final.jar:/Users/msage/.ivy2/cache/io.netty/netty-common/jars/netty-common-4.0.41.Final.jar:/Users/msage/.ivy2/cache/io.netty/netty-transport/jars/netty-transport-4.0.41.Final.jar:/Users/msage/.ivy2/cache/io.netty/netty-codec/jars/netty-codec-4.0.41.Final.jar:/Users/msage/.ivy2/cache/io.netty/netty-codec-http/jars/netty-codec-http-4.0.41.Final.jar:/Users/msage/.ivy2/cache/io.netty/netty-transport-native-epoll/jars/netty-transport-native-epoll-4.0.41.Final-linux-x86_64.jar:/Users/msage/.ivy2/cache/com.typesafe.play/play-logback_2.11/jars/play-logback_2.11-2.5.10.jar:/Users/msage/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.7.jar:/Users/msage/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.7.jar:/Users/msage/.ivy2/cache/com.typesafe.play/play-java-jdbc_2.11/jars/play-java-jdbc_2.11-2.5.10.jar:/Users/msage/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.5.10.jar:/Users/msage/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.5.10.jar:/Users/msage/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/Users/msage/.ivy2/cache/com.zaxxer/HikariCP/bundles/HikariCP-2.5.1.jar:/Users/msage/.ivy2/cache/com.googlecode.usc/jdbcdslog/jars/jdbcdslog-1.0.6.2.jar:/Users/msage/.ivy2/cache/com.h2database/h2/jars/h2-1.4.192.jar:/Users/msage/.ivy2/cache/tyrex/tyrex/jars/tyrex-1.0.1.jar:/Users/msage/.ivy2/cache/com.typesafe.play/play-java_2.11/jars/play-java_2.11-2.5.10.jar:/Users/msage/.ivy2/cache/org.yaml/snakeyaml/bundles/snakeyaml-1.16.jar:/Users/msage/.ivy2/cache/org.hibernate/hibernate-validator/jars/hibernate-validator-5.2.4.Final.jar:/Users/msage/.ivy2/cache/javax.validation/validation-api/jars/validation-api-1.1.0.Final.jar:/Users/msage/.ivy2/cache/org.jboss.logging/jboss-logging/jars/jboss-logging-3.2.1.Final.jar:/Users/msage/.ivy2/cache/com.fasterxml/classmate/bundles/classmate-1.1.0.jar:/Users/msage/.ivy2/cache/javax.el/javax.el-api/jars/javax.el-api-3.0.0.jar:/Users/msage/.ivy2/cache/org.springframework/spring-context/jars/spring-context-4.2.7.RELEASE.jar:/Users/msage/.ivy2/cache/org.springframework/spring-core/jars/spring-core-4.2.7.RELEASE.jar:/Users/msage/.ivy2/cache/org.springframework/spring-beans/jars/spring-beans-4.2.7.RELEASE.jar:/Users/msage/.ivy2/cache/org.reflections/reflections/jars/reflections-0.9.10.jar:/Users/msage/.ivy2/cache/com.google.guava/guava/bundles/guava-19.0.jar:/Users/msage/.ivy2/cache/net.jodah/typetools/bundles/typetools-0.4.4.jar:/Users/msage/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-3.0.1.jar:/Users/msage/.ivy2/cache/org.apache.tomcat/tomcat-servlet-api/jars/tomcat-servlet-api-8.0.33.jar:/Users/msage/.ivy2/cache/com.typesafe.play/anorm_2.11/jars/anorm_2.11-2.5.0.jar:/Users/msage/.ivy2/cache/com.typesafe.play/anorm-tokenizer_2.11/jars/anorm-tokenizer_2.11-2.5.0.jar:/Users/msage/.ivy2/cache/com.jsuereth/scala-arm_2.11/jars/scala-arm_2.11-1.4.jar:/Users/msage/.ivy2/cache/org.scala-lang.plugins/scala-continuations-library_2.11/bundles/scala-continuations-library_2.11-1.0.1.jar:/Users/msage/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.23.jar:/Users/msage/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.5.10.jar:/Users/msage/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-2.6.11.jar:/Users/msage/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.5.10.jar:/Users/msage/.ivy2/cache/org.asynchttpclient/async-http-client/jars/async-http-client-2.0.11.jar:/Users/msage/.ivy2/cache/org.asynchttpclient/netty-resolver-dns/jars/netty-resolver-dns-2.0.11.jar:/Users/msage/.ivy2/cache/org.asynchttpclient/netty-resolver/jars/netty-resolver-2.0.11.jar:/Users/msage/.ivy2/cache/org.asynchttpclient/netty-codec-dns/jars/netty-codec-dns-2.0.11.jar:/Users/msage/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.20.0-GA.jar:/Users/msage/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/Users/msage/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/Users/msage/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.0.1.jar:/Users/msage/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.0.1.jar:/Users/msage/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar
+Scala compilation took 4.447324887 s
 New invalidations:
-	Set(/Users/paulray/vlinks/SCIM/target/scala-2.11/twirl/main/views/html/main.template.scala)
-Initial set of included nodes: Set(/Users/paulray/vlinks/SCIM/target/scala-2.11/twirl/main/views/html/main.template.scala)
-Including /Users/paulray/vlinks/SCIM/target/scala-2.11/twirl/main/views/html/index.template.scala by /Users/paulray/vlinks/SCIM/target/scala-2.11/twirl/main/views/html/main.template.scala
-Including /Users/paulray/vlinks/SCIM/app/controllers/HomeController.scala by /Users/paulray/vlinks/SCIM/target/scala-2.11/twirl/main/views/html/index.template.scala
-Including /Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/router/Routes.scala by /Users/paulray/vlinks/SCIM/app/controllers/HomeController.scala
+	Set()
+Initial set of included nodes: Set()
 Previously invalidated, but (transitively) depend on new invalidations:
-	Set(/Users/paulray/vlinks/SCIM/target/scala-2.11/routes/main/router/Routes.scala)
+	Set()
 All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 12 s, completed Feb 20, 2017 2:24:09 PM
+Copy resource mappings: 
+	(/Users/msage/personal/_git/SCIM/conf/application.conf,/Users/msage/personal/_git/SCIM/target/scala-2.11/classes/application.conf)
+	(/Users/msage/personal/_git/SCIM/conf/logback.xml,/Users/msage/personal/_git/SCIM/target/scala-2.11/classes/logback.xml)
+	(/Users/msage/personal/_git/SCIM/conf/routes,/Users/msage/personal/_git/SCIM/target/scala-2.11/classes/routes)
+Total time: 5 s, completed Feb 23, 2017 7:46:04 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
-> {file:/Users/paulray/vlinks/SCIM/}root/compile:mainClass
-Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@25e48ea5, check cycles: false
-Total time: 0 s, completed Feb 20, 2017 2:24:09 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/Users/paulray/vlinks/SCIM/}root/compile:discoveredMainClasses
-Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@222e476b, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Total time: 0 s, completed Feb 20, 2017 2:24:09 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/Users/paulray/vlinks/SCIM/}root/compile:mainClass
-Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@528f6c05, check cycles: false
-Total time: 0 s, completed Feb 20, 2017 2:24:09 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-Done executing sbt server engine, result Right(Exit(0))
-Closing listening server socket
-Waiting for socket thread
-Waiting for request processor thread
-Waiting for command engine result
-Returning control to sbt launcher with result Exit(0)
-Closing the 1828@Manbook-2.local logs at Mon Feb 20 14:26:32 CST 2017, goodbye.

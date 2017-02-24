@@ -1,13 +1,46 @@
-New log file opened at Mon Feb 20 14:23:32 CST 2017 by 1828@Manbook-2.local
-Taking next connection to: 50914
-New client attempting to connect on port: 50915-50914
-  Address = /192.168.7.104:50914
-This client on port 50915 has uuid cdef8edf-416d-4cea-b629-acbbf0b3ae98 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-cdef8edf-416d-4cea-b629-acbbf0b3ae98
-Taking next connection to: 50914
+New log file opened at Thu Feb 23 19:14:42 CST 2017 by 7704@LTCHI4275.local
+Taking next connection to: 51829
+New client attempting to connect on port: 51830-51829
+  Address = /10.0.0.29:51829
+This client on port 51830 has uuid 602aeb63-8fb6-4ade-b421-6e52eadb7f55 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-602aeb63-8fb6-4ade-b421-6e52eadb7f55
+Taking next connection to: 51829
 Checking to see if clients are empty...
-No non-daemon clients connected after 3 min. Shutting down.
-Server socket thread exiting.
-0 clients open, will close them...
-All client sockets have been closed.
-Closing the 1828@Manbook-2.local logs at Mon Feb 20 14:26:32 CST 2017, goodbye.
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 51829
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 51829
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 51829
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 51829
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 51829
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 51829
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 51829
+New client attempting to connect on port: 52080-51829
+  Address = /10.0.0.8:51829
+Handshake exception on socket: 52080
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 51829
+New client attempting to connect on port: 52081-51829
+  Address = /10.0.0.8:51829
+This client on port 52081 has uuid 78213e15-5b98-4141-84f9-0db3da46f56a configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-602aeb63-8fb6-4ade-b421-6e52eadb7f55, play-fork-run-78213e15-5b98-4141-84f9-0db3da46f56a
+Taking next connection to: 51829
